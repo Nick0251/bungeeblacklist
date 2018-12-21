@@ -1,0 +1,5 @@
+me\nick\bungeeblacklist\commands\CheckblacklistCommand.class
+me\nick\bungeeblacklist\commands\BlacklistCommand.class
+me\nick\bungeeblacklist\events\PreLoginEvent.class
+me\nick\bungeeblacklist\BungeeBlacklist.class
+me\nick\bungeeblacklist\commands\UnblacklistCommand.class
