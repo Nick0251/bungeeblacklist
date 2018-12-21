@@ -26,9 +26,7 @@ public class BlacklistCommand extends Command {
         if (args.length > 1) {
             if (args[0] != null || args[0] != "") {
                 StringBuilder stringBuilder = new StringBuilder();
-                for (String arg : args) {
-                    if (arg != args[0]) stringBuilder.append(arg).append(" ");
-                }
+                for (String arg : args) { if (arg != args[0]) stringBuilder.append(arg).append(" "); }
                 String newString = stringBuilder.toString();
                 newString = newString.substring(0, newString.length() - 1);
                 DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
